@@ -1,7 +1,7 @@
 const myTimeout = setTimeout(alertFunc, 3000);
 
 function alertFunc() {
-    document.getElementById("#form").innerHTML = alert("this is basic js conatct crud system when user load or refesh window and that time this alert show,wen you press 'ok' button then content show");
+    document.getElementById("#form").innerHTML = alert("this is basic js conatct crud system when user load or refesh window and that time this alert show,then you press 'ok'.");
 }
 
 
