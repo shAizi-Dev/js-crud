@@ -1,3 +1,10 @@
+const myTimeout = setTimeout(alertFunc, 3000);
+
+function alertFunc() {
+    document.getElementById("#form").innerHTML = alert("this is basic js conatct crud system when user load or refesh window and that time this alert show,wen you press 'ok' button then content show");
+}
+
+
 let i, el;
 let data =[
     {firstname: "shahroz", lastname:"imtiaz", Email:"example@gmail.com", phonenum: 123345678},
@@ -92,3 +99,4 @@ function deleteform(){
     renderitem();
 }
 renderitem();
+
